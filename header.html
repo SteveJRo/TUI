@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MHC em1 v7</title>
+<style type="text/css">
+/* Legacy CSS that needs to be reviewed */
+body {
+	width: 100% !important;
+	cursor: pointer;
+}
+.ReadMsgBody {
+	width: 100%;
+}
+body {
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+/* Prevent Webkit and Windows Mobile platforms changing default font sizes + webkit font weight correction. */
+body {
+	padding: 0;
+	min-height: 1000px;
+}
+img {
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+	display: block;
+}
+/* Prevent spacing issues in outlook */
+table, table td {
+	border-collapse: collapse !important;
+}
+/* End of Legacy CSS */
+
+/* Centering the email on Adroid 4.4 */
+body {
+	margin: 0 auto !important;
+}
+/* Iphone date/time linking */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+.OpacityBlockWhite {
+	background: rgb(255, 255, 255); /* Fallback */
+	background: rgba(255, 255, 255, 0.8); /*Edit last digit only */
+}
+.OpacityBlockBlue {
+	background: rgb(112, 203, 244); /* Fallback */
+	background: rgba(112, 203, 244, 0.8); /*Edit last digit only */
+}
+.OpacityBlockDark {
+	background: rgb(9, 42, 94); /* Fallback */
+	background: rgba(9, 42, 94, 0.8); /*Edit last digit only */
+}
+
+@media screen {
+/* TUI type */
+@font-face {
+	font-family: 'tui';
+	src: url('http://cslb.creatormail.co.uk/sites/tui/hermes/fonts/tuitype/tuitype-rg.eot');
+	src: url('http://cslb.creatormail.co.uk/sites/tui/hermes/fonts/tuitype/tuitype-rg.eot?#iefix') format('embedded-opentype'), url('http://cslb.creatormail.co.uk/sites/tui/hermes/fonts/tuitype/tuitype-rg.woff') format('woff'), url('http://cslb.creatormail.co.uk/sites/tui/hermes/fonts/tuitype/tuitype-rg.svg#webfont') format('svg'), url('http://cslb.creatormail.co.uk/sites/tui/hermes/fonts/tuitype/tuitype-rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+}
+
+@media only screen and (max-width: 480px) {
+/**/
+/*Mobile is fixed width*/
+.mobile-width {
+	width: 320px !important;
+}
+.fluid100 {
+	width: 100% !important;
+}
+.fluid90 {
+	width: 90% !important;
+}
+.fluid50 {
+	width: 50% !important;
+}
+.height-auto {
+	height: auto !important;
+}
+.width-auto {
+	width: auto !important;
+}
+/*** Stacking ***/
+*[class].puttop {
+	display: table-header-group!important;
+}
+*[class].putbottom {
+	display: table-footer-group!important;
+}
+.block {
+	display: block !important;
+	width: 100% !important;
+}
+.hide, .hide * {
+	display: none!important;
+	max-height: 0!important;
+	max-width: 0!important;
+	height: 0!important;
+	width: 0px !important;
+	padding: 0!important;
+	margin: 0!important;
+	visibility: hidden!important;
+	line-height: 0px !important;
+	font-size: 0px !important;
+	background: none!important;
+}
+/* font-scaling for mobile */
+.font-16 {
+	font-size: 16px !important;
+}
+.font-20 {
+	font-size: 20px !important;
+}
+.lh-16 {
+	line-height: 16px !important;
+}
+.lh-18 {
+	line-height: 18px !important;
+}
+.lh-20 {
+	line-height: 20px !important;
+}
+.lh-24 {
+	line-height: 24px !important;
+}
+/* Navigation classes */
+.nav-link {
+	margin-bottom: 10px !important;
+}
+/* handy for text over images */
+.blue {
+	color: #092a5e !important;
+}
+.white {
+	color: #ffffff !important;
+}
+/* for the app banner */
+.app-table {
+	width: 100% !important;
+	height: auto !important;
+	margin-top: 190px !important;
+}
+.app-bg {
+	background-color: #092a5e !important;
+}
+/* variables for changing hero banners */
+
+.hero-spacer {
+	height: 148px !important;
+}
+.hero-copy {
+	padding: 15px !important;
+}
+.hero-shift {
+	background-size: 120% !important;
+}
+/* Image swap for mobile - must be at the end of the CSS */
+/* requires following DOM */
+/* td.swap_wrapper > table > tr.swap_dt > td > img */
+/* and for mobile */
+/* td.swap_wrapper > table > tr.swap_mob_tr style="display:none; width:0; height:0; max-height:0; overflow:hidden; float:left; font-size:0px;" > img style="display:none;" 
+/* td.swap_wrapper > table > tr > td.swap_mob style="display:none; width:0; height:0; max-height:0; overflow:hidden; float:left; font-size:0px;" > img style="display:none;" */
+td[class="swap_wrapper"] .swap_dt {
+	display: none;
+}
+td[class="swap_wrapper"] .swap_mob {
+	display: table-cell !important;
+	width: 100% !important;
+	height: auto !important;
+	max-height: inherit !important;
+	overflow: visible !important;
+	float: none !important;
+	padding: 0px !important;
+}
+td[class="swap_wrapper"] .swap_mob_tr {
+	display: table-row !important;
+	width: 100% !important;
+	height: auto !important;
+	max-height: inherit !important;
+	overflow: visible !important;
+	float: none !important;
+	padding: 0px !important;
+}
+td[class="swap_wrapper"] .swap_mob img {
+	width: 100%;
+	display: block !important;
+}
+}
+</style>
+</head>
+
+<body style="background:min-height: 1000px; color: #092a5e; -webkit-font-smoothing: antialiased;" text="#092a5e" bgcolor="#f3f0ec">
+<!--Wrapper//-->
+<table width="100%" cellspacing="0" border="0" cellpadding="0" bgcolor="#f3f0ec">
+  
+  <!-- Preheader// -->
+  <tr>
+    <td valign="top" style="font-family:Arial, Helvetica, sans-serif; color:#f3f0ec; font-size:1px;">Pre-header copy for second line inbox visibility</td>
+  </tr>
+  <!-- //Preheader -->
+  
+  <tr>
+    <td align="center" valign="top"><table class="mobile-width" width="650" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+        
+      
+        <tr>
+          <td align="center" valign="top" bgcolor="#ffffff">
+          <!-- Travelaware strip -->
+            
+            <table width="650" class="fluid100" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" valign="top" bgcolor="#dcdcdc"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="font-size:0px; line-height:0px;" width="20"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td style="font-size:0px; line-height:0px;" height="10"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="font-size: 14px; line-height:14px; font-family:'tui', Helvetica, Arial, Sans-serif;color:#092a5e; text-transform:uppercase; mso-line-height-rule:exactly;"><a href="https://www.tui.co.uk/destinations/info/travel-aware" style="color:#092a5e; text-decoration:none;">Travel aware - staying safe &amp; healthy abroad</a></td>
+                          </tr>
+                          <tr>
+                            <td style="font-size:0px; line-height:0px;" height="10"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                          </tr>
+                        </table></td>
+                      <td style="font-size:0px; line-height:0px;" width="20"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            <table class="hide" align="center" width="650" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td style="font-size:0; line-height:0px;" height="10" bgcolor="#f3f0ec"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" alt="" border="0" style="display:block" width="2" height="2" /></td>
+              </tr>
+            </table>
+            
+            <!-- Travelaware strip -->
+            <!-- brand header -->
+            
+            <table width="650" class="fluid100" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td bgcolor="#70cbf4"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="font-size:0px; line-height:0px;" width="20"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td style="font-size:0px; line-height:0px;" height="15"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                          </tr>
+                          <tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td align="left" valign="middle"><a href="https://www.tui.co.uk" style="color:#d40e14; text-decoration:none;"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/tui-logo.png" width="69" height="30" style="display:block; font-family:'Tui', Calibri, Helvetica, Arial, sans-serif; font-size:26px; line-height:26px; color:#d40e14;" alt="TUI" border="0" /></a></td>
+                                  <td align="right" valign="middle"><a href="https://www.tui.co.uk" style="color:#092a5e; text-decoration:none;"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/dys.png" alt="Discover Your Smile" width="162" height="30" style="display:block; font-family:'Tui', Calibri, Helvetica, Arial, sans-serif; font-size:20px; line-height:20px; color:#092a5e;" border="0"></a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="font-size:0px; line-height:0px;" height="15"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                          </tr>
+                        </table></td>
+                      <td style="font-size:0px; line-height:0px;" width="20"><img src="http://cslb.creatormail.co.uk/sites/tui/2018/TUI/master/spacer.gif" style="display:block"  width="2" height="2" border="0" /></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            
+            <!-- brand header --> 
